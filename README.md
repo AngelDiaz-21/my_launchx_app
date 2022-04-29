@@ -7,7 +7,7 @@ Así como directorios y archivos para organizar nuestro código. Así como inici
 En el archivo package.json se agregarán las dependencias necesarias, en este caso solo utilizaremos jest. Así que haremos uso del comando *`npm install --save-dev jest`*. (Esto indica que se agrega la dependencia jest, y que se agrega para el ambiente de desarrollo --save-dev). Así como también se creara la carpeta *`node_modules`*.
 3. Creación de una clase y modularización
 En las carpetas app se creará un archivo *missionCommander.js* y así como una clase *MissionCommander* junto a su constructor donde solo recibirá un parámetro y lo agregue en el atributo *name*. Y se exportará la clase.  
-![Archivo missionCommander.js](./assets/images/class-missionCommander.png "Archivo missionCommander.js")  
+![Archivo missionCommander.js](./assets/images/class-MissionCommander.png "Archivo missionCommander.js")  
 
 En el archivo index.js importamos la clase, se instancia la clase en 3 objetos y se imprime el atributo name.  
 ![Archivo index.js ](./assets/images/index.png "Archivo index.js")  
