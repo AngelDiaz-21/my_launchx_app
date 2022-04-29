@@ -17,7 +17,7 @@ En el archivo package.json, en la parte de scripts escribimos la siguiente líne
  "start": "node index.js"
 
 ```
-Y con el comando *`npm start`* podemos ejecutar el archivo index.js, en pocas palabras es como si estuvieramos ejecutando el comando *`node index.js`*.
+Y con el comando *`npm start`* podemos ejecutar el archivo index.js, en pocas palabras es como si estuvieramos ejecutando el comando *`node index.js`*.  
 
 4. Agregar una prueba de unidad de la clase
 En el archivo package.json se modifica la siguiente línea de código que empieza con *`test`*, por:
